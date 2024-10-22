@@ -1,0 +1,165 @@
+body {
+    background-color: lightgrey;
+}
+
+div.container {
+    width: 780px;
+    min-height: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container header > img {
+    display: block;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav a {
+    color: black;
+    text-transform: uppercase;
+    margin: 0 3px;
+    border: 0 dotted chocolate;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.nav span:last-of-type:after {
+    content: "";
+}
+
+.nav span:after {
+    content: " |";
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav a img {
+    vertical-align: middle;
+}
+
+.middle {
+    background-image: url('uofu_medallion_rt.gif');
+}
+
+section.inside {
+    min-height: 500px;
+    border-radius: 20px;
+    background-color: #d2d2bb;
+    margin: 1rem 1rem 4rem 1rem;
+    padding: 1rem;
+}
+
+div.middle section.inside aside.nav,
+div.middle section.inside article.main {
+    border: 0 solid black;
+}
+
+div.middle section.inside aside.nav {
+    float: left;
+    width: 200px;
+    min-height: 500px;
+    font-size: 11px;
+}
+
+aside.nav a {
+    display: block;
+    border-bottom: 1px solid #575d2b;
+    padding: 10px;
+    text-align: left;
+}
+
+aside.nav a:hover {
+    background-color: #575d2b;
+    color: white;
+}
+
+aside.nav div.login  {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+aside.nav div.login a{
+    border-bottom: unset;
+}
+
+aside.nav div.login a:hover {
+    background-color: unset;
+}
+
+article.main {
+    background-color: #ffffff;
+    margin: 0 4px 0 4px;
+    padding: 0 4px 0 4px;
+    max-height: 500px;
+}
+
+article.main img {
+    margin: 5px 5px 0 5px;
+    width: 97%;
+}
+
+article.main h1 {
+    margin-top: 10px;
+    border-bottom: 2px dotted #c43733;
+    font-weight: normal;
+    font-size: 16px;
+    color: #575d2b;
+    text-transform: uppercase;
+}
+
+article.main div.content {
+    font-size: 12px;
+    overflow: auto;
+}
+
+div.content p {
+    margin-top: 0;
+}
+
+div.content p span {
+    font-weight: bold;
+}
+
+article.main a{
+    font-size: 12px;
+    color: #c43733;
+    text-transform: uppercase;
+    display: block;
+    text-align: right;
+    margin: 0.5rem 0;
+    text-decoration: none;
+}
+
+article.main a:hover{
+    text-decoration: underline;
+}
+
+div.middle section.inside article.main {
+    float: right;
+    width: 490px;
+    min-height: 500px;
+}
+
+.bottom a{
+    text-transform: lowercase;
+}
+
+.bottom span{
+    font-size: 8px;
+}
+
+footer {
+    background-color: #77793e;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    padding: 5px 0;
+}
+
